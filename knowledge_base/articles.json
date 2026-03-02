@@ -1,0 +1,20 @@
+[
+    {
+      "id": "KB-001",
+      "title": "API Timeout Solutions",
+      "keywords": ["api", "timeout", "server", "code", "endpoint"],
+      "content": "To resolve API timeouts, ensure your request payload is under 5MB. If the issue persists, increase your client-side timeout threshold to 30 seconds or check our server status page."
+    },
+    {
+      "id": "KB-002",
+      "title": "Password and Login Issues",
+      "keywords": ["password", "login", "broken", "not working", "access"],
+      "content": "If you cannot log in, please clear your browser cache and cookies. If that doesn't work, use the 'Forgot Password' link on the login page to receive a reset email."
+    },
+    {
+      "id": "KB-003",
+      "title": "Billing and Budget Adjustments",
+      "keywords": ["budget", "billing", "cost", "roi", "charge"],
+      "content": "You can view your current usage and adjust your budget tiers from the Billing Dashboard. Upgrading to the Professional plan often saves high-volume users 15%."
+    }
+  ]
