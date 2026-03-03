@@ -92,10 +92,11 @@ def serve_ui():
                 }
             });
 
+            // FIXED JAVASCRIPT BUG: Added random number generator to ensure unique IDs
             function addMessage(text, className, isHtml = false) {
                 const div = document.createElement('div');
                 div.className = `message ${className}`;
-                div.id = 'msg-' + Date.now();
+                div.id = 'msg-' + Date.now() + '-' + Math.floor(Math.random() * 10000);
                 if (isHtml) { div.innerHTML = text; } 
                 else { div.textContent = text; }
                 chatBox.appendChild(div);
